@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body{
+    background-color: #F8C03A;
+}
+
+.header {
+    margin: 3rem auto;
+}
+
+.header h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.form-inline {
+    margin-bottom: 1rem;
+}
+
+tbody tr th,
+tbody tr td {
+
+    word-break: keep-all;
+}
+
+.fas.fa-sort.sort_icon_style {
+    color: #ffffff;
+}
+
+.sort-button{
+    background-color: transparent;
+    border: none;
+    margin-left: 1rem;
+
+
+}
+.sort-button:focus{
+    outline: none;
+}
+
+#pagination_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination_container button{
+    margin: 0.3rem;
+}
+
+#btn-prev,
+#btn-next {
+    color: #343a40;
+}
+
+#btn-prev:hover,
+#btn-next:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+#btn-prev:active,
+#btn-next:active{
+    box-shadow: none;
+    outline: none;
+}
+
+#btn-prev:focus,
+#btn-next:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+#select_count_to_show {
+    border-radius: 5px;
+    background-color: #ffffff;
+
+}
+
+.esterox {
+    padding: 0.7rem;
+}
+
+.table-dark td, .table-dark th,
+.table-dark thead th {
+ border-color: #f8ea0e;
+
+}
+
+#form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn.btn-dark.btn-page.active {
+    color: #3A3A3A;
+    background-color: #fff;
+    border-color: #171a1d;
+}
+
